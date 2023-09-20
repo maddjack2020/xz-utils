@@ -1,0 +1,20 @@
+Source: xz-utils
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: https://tukaani.org/xz/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/xz-utils.git
+Vcs-Browser: https://github.com/maddjack2020/xz-utils
+
+Package: xz-utils
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Xz-Utils package contains programs for compressing and decompressing
+ files. It provides capabilities for the lzma and the newer xz compression
+ formats. Compressing text files with xz yields a better compression percentage
+ than with the traditional gzip or bzip2 commands.
